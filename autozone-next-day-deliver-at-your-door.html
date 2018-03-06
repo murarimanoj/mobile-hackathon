@@ -339,7 +339,8 @@ z-index: 1;
 #productImageContainer .detNdBadge {
 	margin-left: 60px;
 	margin-top: 70px;
-}</style>
+}
+  </style>
 					<style type="text/css">
 			/*-----------------------------------------------------------------------------------------
     Template styling for "speed to market" and "responsive" landing pages ONLY.
@@ -1206,11 +1207,315 @@ footer nav ul li a {
 .fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
 .fb_customer_chat_bounce_in{animation-duration:250ms;animation-name:fb_bounce_in}.fb_customer_chat_bounce_out{animation-duration:250ms;animation-name:fb_fade_out}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{height:100%;overflow:hidden;position:fixed;width:100%}@keyframes fb_fade_out{from{opacity:1}to{opacity:0}}@keyframes fb_bounce_in{0%{opacity:0;transform:scale(.8, .8);transform-origin:100% 100%}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8;transform:scale(1.03, 1.03)}90{opacity:.9}100%{opacity:1;transform:scale(1, 1)}}</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="autozone.components.Jspop" src="./autozone-next-day-deliver-at-your-door-files/autozone.components.Jspop.js"></script>
 
+
+  <!-- Page Specific CSS -->
+  <style type="text/css">
+    .headerBanner {
+      display: block;
+    }
+    #nddTruck {
+      display: none;
+    }
+    .headerTextOutter {
+      position: relative;
+      color: #000;
+    }
+    .headerTextInner {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+    }
+    .titleHeader {
+      font-size: 2.5em;
+      margin-bottom: 0;
+      margin-top: 0;
+      line-height: .8em;
+      padding-top: 10px;
+    }
+    .nddAster {
+      font-size: 0.5em;
+      position: relative;
+      bottom: 18px;
+      left: 2px;
+    }
+    .italics {
+      font-style: italic;
+    }
+    .headerSubTitle {
+      font-size: 1.2em;
+      width: 230px;
+      text-align: center;
+      margin: auto;
+      padding-top: 10px;
+    }
+    .headerBottomSub {
+      font-size: 1.2em;
+      text-align: center;
+      margin: 10px auto 0 auto;
+    }
+    .headerLarge {
+      font-size: 4.2em;
+      line-height: 1;
+      text-align: center;
+    }
+    #dollarSmall {
+      position: relative;
+      font-size: .6em;
+      top: -18px;
+    }
+    .borderBoxOrange {
+      background: #f37f00;
+      position: relative;
+      width: 100px;
+      height: 6px;
+      line-height: 0;
+      -webkit-transform: skew(-20deg);
+      -moz-transform: skew(-20deg);
+      -o-transform: skew(-20deg);
+      margin: 9px auto 0 auto;
+    }
+    .headerBottomBold {
+      margin-top: 15px;
+      font-size: 1.7em;
+      text-align: center;
+    }
+    .headerBottomNorm {
+      font-size: 1.7em;
+      margin-top: 3px;
+      text-align: center;
+    }
+    .nddMainHead {
+      max-width: 300px;
+      color: #000;
+      margin: 0px auto 25px auto;
+      text-align: center;
+      font-size: 1.8em;
+    }
+    .nddHowWorks {
+      padding: 0 20px;
+    }
+    .nddPfont {
+      color: #000;
+      font-size: 0.9em;
+      line-height: 1.2;
+    }
+    .nddAZfont {
+      font-family: AutoZoneCond, Arial, sans-serif;
+    }
+    .nddBold {
+      font-family: "AutoZoneCond-Heavy", Arial, sans-serif !important;
+    }
+    .nddUp {
+      text-transform: uppercase;
+    }
+    .nddOrange {
+      color: #f37f00;
+    }
+    .nddBlue {
+      color: #0081b2;
+    }
+    .nddBlack {
+      color: #000;
+    }
+    .nddLSpacingMd {
+      letter-spacing: 1px;
+    }
+    .nddShopBtn {
+      width: 280px;
+      margin: 30px auto;
+      border-radius: 3px !important;
+      font-size: 1em;
+      font-weight: bold;
+    }
+    .nddGreyBG {
+      background-color: #ececec;
+      margin: 40px 0;
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .nddAvailableHead {
+      color: #000;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 15px;
+      font-size: 1.5em;
+      font-family: "AutoZoneCond-Medium", Arial, sans-serif;
+    }
+    .nddSmall {
+      font-size: 0.8em;
+    }
+    #nddLegal p {
+      font-size: small;
+    }
+    .nddUL {
+      font-size: 1.3em !important;
+      list-style-type: circle !important;
+      width: auto;
+      display: inline-flex;
+      margin: 5px auto 0 auto;
+    }
+    .nddUL li {
+      color: #6c6f70 !important;
+      margin: auto;
+      padding-left: 0px;
+      margin-left: 0px;
+      margin-right: 60px;
+      font-size: 0.75em !important;
+      padding-bottom: 0;
+    }
+    .nddBtmBlock {
+      margin-bottom: 30px;
+    }
+    .nddDisclaimer {
+      width: 100%;
+      padding: 10px 5px;
+    }
+    .nddBtmHead {
+      width: 100%;
+    }
+    .nddBtmMainHead {
+      font-size: 1.8em;
+      text-align: center;
+      color: #000;
+      margin: 10px auto 5px auto;
+    }
+    .nddBtmHeadAll {
+      margin: 40px 0 15px 0;
+    }
+    @media screen and (max-width: 850px) {
+      #nddTruck {
+        display: block;
+        margin: auto;
+      }
+      .nddMainHead {
+        margin-top: 10px;
+      }
+      .headerLarge {
+        font-size: 3.5em;
+      }
+      .headerBanner {
+        display: none;
+      }
+      .headerTextInner {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 10px 10px 25px 10px;
+      }
+      .titleHeader {
+        font-size: 2.2em;
+        display: inline-block;
+      }
+      .borderBoxOrange {
+        margin: auto;
+        /* left: -86px; */
+        width: 340px;
+      }
+      .like-button {
+        display: none;
+      }
+      .bottomLineForSmall {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+      }
+      .nddUL {
+        margin: 5px 0 0 10px;
+        display: block;
+      }
+      .nddUL li {
+        text-align: left;
+      }
+      .nddAvailableHead {
+        text-align: left;
+        margin-left: 15px;
+      }
+      .nddDisclaimer {
+        text-align: left;
+        margin-left: 10px;
+
+      }
+      .sparkPlugBlock {
+        margin-bottom: 30px;
+      }
+      #title-zone-inner {
+        background-color: #e6e6e6;
+        position: relative;
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-top: -5px;
+        margin-bottom: 10px;
+        padding: 15px 40px 40px;
+        text-align: center;
+      }
+      .nddTitleGrey {
+        background-color: #FFF;
+      }
+    }
+    @media screen and (max-width: 639px) {
+      .bottomLineForSmall {
+        border-bottom: 2px solid #ccc;
+      }
+    }
+    @media screen and (max-width: 647px) {
+      .nddUL {
+        margin-top: 0;
+      }
+      .nddAvailableHead {
+        padding-bottom: 15px;
+      }
+    }
+    @media screen and (max-width: 520px) {
+      #nddTruck {
+        display: block;
+        /* margin: 10px 10% 0 0;
+        float: right; */
+      }
+    }
+    @media screen and (max-width: 460px) {
+      /* #nddTruck {
+        margin: 10px 5px 0 0;
+      } */
+      .borderBoxOrange {
+        display: none;
+      }
+    }
+    @media screen and (max-width: 415px) {
+      /* #nddTruck {
+        margin-right: 0;
+      } */
+      .titleHeader {
+        max-width: 160px;
+        font-size: 2em;
+      }
+    }
+    @media screen and (max-width: 400px) {
+      .headerLarge {
+        font-size: 2.5em;
+      }
+      .borderBoxOrange {
+        width: 88px;
+      }
+    }
+    @media screen and (max-width: 378px) {
+      /* #nddTruck {
+        float: none;
+        margin: auto;
+      } */
+      #title-zone-inner {
+        text-align: center;
+      }
+      /* .borderBoxOrange {
+        margin: auto;
+        left: -61px;
+      } */
+    }
+  </style>
+
 </head>
 
-<body class="" style="">
-
 <meta name="msapplication-config" content="none">
+
+<body class="" style="">
 
 <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./autozone-next-day-deliver-at-your-door-files/Nh1oH0K63yz.html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
 			<div id="window">
@@ -1257,308 +1562,7 @@ footer nav ul li a {
 		<!--  START: BCC Content  -->
 
 		<div id="title-zone" style="background:url(&#39;&#39;) no-repeat;">
-			<!-- Page Specific CSS -->
-<style type="text/css">
-  .headerBanner {
-    display: block;
-  }
-  #nddTruck {
-    display: none;
-  }
-  .headerTextOutter {
-    position: relative;
-    color: #000;
-  }
-  .headerTextInner {
-    position: absolute;
-    top: 30px;
-    left: 20px;
-  }
-  .titleHeader {
-    font-size: 2.5em;
-    margin-bottom: 0;
-    margin-top: 0;
-    line-height: .8em;
-    padding-top: 10px;
-  }
-  .nddAster {
-    font-size: 0.5em;
-    position: relative;
-    bottom: 18px;
-    left: 2px;
-  }
-  .italics {
-    font-style: italic;
-  }
-  .headerSubTitle {
-    font-size: 1.2em;
-    width: 230px;
-    text-align: center;
-    margin: auto;
-    padding-top: 10px;
-  }
-  .headerBottomSub {
-    font-size: 1.2em;
-    text-align: center;
-    margin: 10px auto 0 auto;
-  }
-  .headerLarge {
-    font-size: 4.2em;
-    line-height: 1;
-    text-align: center;
-  }
-  #dollarSmall {
-    position: relative;
-    font-size: .6em;
-    top: -18px;
-  }
-  .borderBoxOrange {
-    background: #f37f00;
-    position: relative;
-    width: 100px;
-    height: 6px;
-    line-height: 0;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -o-transform: skew(-20deg);
-    margin: 9px auto 0 auto;
-  }
-  .headerBottomBold {
-    margin-top: 15px;
-    font-size: 1.7em;
-    text-align: center;
-  }
-  .headerBottomNorm {
-    font-size: 1.7em;
-    margin-top: 3px;
-    text-align: center;
-  }
-  .nddMainHead {
-    max-width: 300px;
-    color: #000;
-    margin: 0px auto 25px auto;
-    text-align: center;
-    font-size: 1.8em;
-  }
-  .nddHowWorks {
-    padding: 0 20px;
-  }
-  .nddPfont {
-    color: #000;
-    font-size: 0.9em;
-    line-height: 1.2;
-  }
-  .nddAZfont {
-    font-family: AutoZoneCond, Arial, sans-serif;
-  }
-  .nddBold {
-    font-family: "AutoZoneCond-Heavy", Arial, sans-serif !important;
-  }
-  .nddUp {
-    text-transform: uppercase;
-  }
-  .nddOrange {
-    color: #f37f00;
-  }
-  .nddBlue {
-    color: #0081b2;
-  }
-  .nddBlack {
-    color: #000;
-  }
-  .nddLSpacingMd {
-    letter-spacing: 1px;
-  }
-  .nddShopBtn {
-    width: 280px;
-    margin: 30px auto;
-    border-radius: 3px !important;
-    font-size: 1em;
-    font-weight: bold;
-  }
-  .nddGreyBG {
-    background-color: #ececec;
-    margin: 40px 0;
-    margin-left: -15px;
-    margin-right: -15px;
-  }
-  .nddAvailableHead {
-    color: #000;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    font-size: 1.5em;
-    font-family: "AutoZoneCond-Medium", Arial, sans-serif;
-  }
-  .nddSmall {
-    font-size: 0.8em;
-  }
-  #nddLegal p {
-    font-size: small;
-  }
-  .nddUL {
-    font-size: 1.3em !important;
-    list-style-type: circle !important;
-    width: auto;
-    display: inline-flex;
-    margin: 5px auto 0 auto;
-  }
-  .nddUL li {
-    color: #6c6f70 !important;
-    margin: auto;
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-right: 60px;
-    font-size: 0.75em !important;
-    padding-bottom: 0;
-  }
-  .nddBtmBlock {
-    margin-bottom: 30px;
-  }
-  .nddDisclaimer {
-    width: 100%;
-    padding: 10px 5px;
-  }
-  .nddBtmHead {
-    width: 100%;
-  }
-  .nddBtmMainHead {
-    font-size: 1.8em;
-    text-align: center;
-    color: #000;
-    margin: 10px auto 5px auto;
-  }
-  .nddBtmHeadAll {
-    margin: 40px 0 15px 0;
-  }
-  @media screen and (max-width: 850px) {
-    #nddTruck {
-      display: block;
-      margin: auto;
-    }
-    .nddMainHead {
-      margin-top: 10px;
-    }
-    .headerLarge {
-      font-size: 3.5em;
-    }
-    .headerBanner {
-      display: none;
-    }
-    .headerTextInner {
-      position: relative;
-      top: 0;
-      left: 0;
-      padding: 10px 10px 25px 10px;
-    }
-    .titleHeader {
-      font-size: 2.2em;
-      display: inline-block;
-    }
-    .borderBoxOrange {
-      margin: auto;
-      /* left: -86px; */
-      width: 340px;
-    }
-    .like-button {
-      display: none;
-    }
-    .bottomLineForSmall {
-      margin-bottom: 30px;
-      padding-bottom: 30px;
-    }
-    .nddUL {
-      margin: 5px 0 0 10px;
-      display: block;
-    }
-    .nddUL li {
-      text-align: left;
-    }
-    .nddAvailableHead {
-      text-align: left;
-      margin-left: 15px;
-    }
-    .nddDisclaimer {
-      text-align: left;
-      margin-left: 10px;
 
-    }
-    .sparkPlugBlock {
-      margin-bottom: 30px;
-    }
-    #title-zone-inner {
-      background-color: #e6e6e6;
-      position: relative;
-      margin-left: -20px;
-      margin-right: -20px;
-      margin-top: -5px;
-      margin-bottom: 10px;
-      padding: 15px 40px 40px;
-      text-align: center;
-    }
-    .nddTitleGrey {
-      background-color: #FFF;
-    }
-  }
-  @media screen and (max-width: 639px) {
-    .bottomLineForSmall {
-      border-bottom: 2px solid #ccc;
-    }
-  }
-  @media screen and (max-width: 647px) {
-    .nddUL {
-      margin-top: 0;
-    }
-    .nddAvailableHead {
-      padding-bottom: 15px;
-    }
-  }
-  @media screen and (max-width: 520px) {
-    #nddTruck {
-      display: block;
-      /* margin: 10px 10% 0 0;
-      float: right; */
-    }
-  }
-   @media screen and (max-width: 460px) {
-    /* #nddTruck {
-      margin: 10px 5px 0 0;
-    } */
-    .borderBoxOrange {
-      display: none;
-    }
-  } 
-  @media screen and (max-width: 415px) {
-    /* #nddTruck {
-      margin-right: 0;
-    } */
-    .titleHeader {
-      max-width: 160px;
-      font-size: 2em;
-    }
-  }
-  @media screen and (max-width: 400px) {
-    .headerLarge {
-      font-size: 2.5em;
-    }
-    .borderBoxOrange {
-      width: 88px;
-    }
-  }
-  @media screen and (max-width: 378px) {
-    /* #nddTruck {
-      float: none;
-      margin: auto;
-    } */
-    #title-zone-inner {
-      text-align: center;
-    }
-    /* .borderBoxOrange {
-      margin: auto;
-      left: -61px;
-    } */
-  }
-</style>
 
 <!--  END page specific CSS  -->
 <!--  START: Responsive Header Banner  -->
@@ -1588,19 +1592,8 @@ footer nav ul li a {
 
 		<div class="like-button right">
 			<div class="fbwidget fblike">
-		<fb:like href="https://www.autozone.com/landing/page.jsp?name=next-day-delivery" width="225" layout="standard" action="like" show_faces="false" share="true" class=" fb_iframe_widget fb_iframe_widget_fluid" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=427885827290061&amp;container_width=0&amp;href=https%3A%2F%2Fwww.autozone.com%2Flanding%2Fpage.jsp%3Fname%3Dnext-day-delivery&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;width=225"><span style="vertical-align: bottom; width: 225px; height: 28px;"><iframe name="f1f58aa2714991c" width="225px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="./autozone-next-day-deliver-at-your-door-files/like.html" class="" style="border: none; visibility: visible; width: 225px; height: 28px;"></iframe></span></fb:like>
 	</div>
-	<script type="text/javascript">
-	 	var canUrl = 'https://www.autozone.com/landing/page.jsp?name=next-day-delivery'.replace(/(https|http):\/\/[^/]*(.*)/, function (match, g1, g2) {
-	 		return g1 + '://' + 'www.autozone.com' + g2;
-	 	});
-		$('fb\\:like').attr('href', canUrl);
-		require(['fb'], function (Facebook) {
-			var facebookLike = new Facebook({
-				language: 'US'
-			});
-		});
-	</script>
+
 </div>
 		<div class="clear"></div>
 		<div class="nddMain">
@@ -1760,7 +1753,8 @@ footer nav ul li a {
 		<div style="display:none;">
 			</div>
 
-	</div></div>
+	</div>
+          </div>
 				</div><ins class="adsbygoogle ad3" style="width: 728px; height: 90px; top: 10px; left: 125px; position: relative;" data-ad-client="ca-pub-1121694687301938" data-ad-slot="3810397666"></ins>
 				<footer class="siteFooter pad">
 							<nav>
@@ -1783,4 +1777,6 @@ footer nav ul li a {
 
 <div id="sr_global" class="sr_reset"></div>
 
-</div></body></html>
+</div>
+</body>
+</html>
